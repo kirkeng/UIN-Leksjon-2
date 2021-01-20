@@ -20,20 +20,50 @@ header {
 }
 
 main {
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
+}
+
+#form_section {
+    margin-top: 50px;
+}
+
+#form_section label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: initial;
 }
 
 #title_input {
     width: 50%;
     height: 30px;
-    border-radius: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
 }
 
 #content_input {
     width: 100%;
-    height: 100px;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+}
+
+#add_button {
+    float: right;
+    background-color: turquoise;
+    padding: 10px;
+    width: 14%;
+    color: white;
+    font-size: larger;
+    border: transparent;
     border-radius: 10px;
+}
+
+#my_todostext {
+    margin-top: 120px;
 }
 
 #todo_section {
@@ -52,4 +82,9 @@ main {
 
 .complete_button {
     float: right;
+    background-color: turquoise;
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+    padding: 10px;
 }
