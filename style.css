@@ -116,3 +116,11 @@ main {
     font-weight: bold;
     font-size: 11px;
 }
+
+@media screen and (max-width: 800px) {
+    #todo_section {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 40px;
+    }
+}
